@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Digital Rotation - GTUD V6-2 and V6-3 Data"
+authors:
+  - family-names: "Slot"
+    given-names: "A. F."
+type: dataset
+license: GPL-3.0
+repository-code: "https://github.com/A-F-Slot/digital-rotation"
+keywords:
+  - digital rotation
+  - GTUD
+  - scientific data
+abstract: "This repository contains scientific data for the GTUD Digital rotation experiments V6-2 and V6-3."
