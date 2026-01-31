@@ -1,0 +1,28 @@
+GTUD Digital Rotation v6.2 — run log
+Timestamp_UTC: 2026-01-19T02:25:42.090732+00:00
+Python: 3.11.2
+Platform: Linux-4.4.0-x86_64-with-glibc2.36
+NumPy: 1.24.0
+Pandas: 2.2.3
+
+PARAMS
+n=512
+replicates=120
+seed=42
+band=0.08
+lambda_threshold=0.75
+sign_changes_half_range=[2,200]
+P_SPEC=2.72
+noise_sigmas=[0.05, 0.1, 0.3]
+bitflip_ps=[0.01, 0.02, 0.05, 0.1]
+kgrid=[0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 28, 32, 64]
+
+FILES
+raw_v6_2_all_conditions.csv: /mnt/data/GTUD_DigitalRotation_v6_2_release/data/raw_v6_2_all_conditions.csv
+fit_v6_2_per_replicate.csv: /mnt/data/GTUD_DigitalRotation_v6_2_release/data/fit_v6_2_per_replicate.csv
+summary_by_condition_and_k.csv: /mnt/data/GTUD_DigitalRotation_v6_2_release/results/summary_by_condition_and_k.csv
+fit_summary_by_condition.csv: /mnt/data/GTUD_DigitalRotation_v6_2_release/results/fit_summary_by_condition.csv
+fig1_coherent_soft_E_vs_theta2.png: /mnt/data/GTUD_DigitalRotation_v6_2_release/figures/fig1_coherent_soft_E_vs_theta2.png
+fig2_noise_comparison_small_angle.png: /mnt/data/GTUD_DigitalRotation_v6_2_release/figures/fig2_noise_comparison_small_angle.png
+fig3_R2_origin_hist.png: /mnt/data/GTUD_DigitalRotation_v6_2_release/figures/fig3_R2_origin_hist.png
+fig4_noise_R2_delta.png: /mnt/data/GTUD_DigitalRotation_v6_2_release/figures/fig4_noise_R2_delta.png

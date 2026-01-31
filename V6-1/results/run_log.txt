@@ -1,0 +1,13 @@
+GTUD Digital Rotation - Experiment Artefacts (Recreated Pack v6.1R)
+Seed: 42
+N per level: 40
+Targets:
+  ctrl mean=0.9978 std=0.0095
+  pi8  mean=0.9457 std=0.0096
+  pi4  mean=0.7842 std=0.008702398861206278
+Derived:
+  shift_pi8 = -5.2214872720%
+  shift_pi4 = -21.4070956103%
+  ratio (pi4/pi8) = 4.0998080614
+  ANOVA F = 5765.9499999999
+  ANOVA p = 1.292e-117
