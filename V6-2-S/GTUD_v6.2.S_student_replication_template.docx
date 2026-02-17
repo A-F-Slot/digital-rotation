@@ -1,0 +1,16 @@
+# GTUD Digital Rotation v6.2.S: One-Day Student Replication and Falsification Suite (Δθ² Signature)
+
+Author: A. F. Slot (GTUD)
+
+- GitHub (v6.2.S): https://github.com/A-F-Slot/digital-rotation/tree/main/V6-2-S
+- DOI (Student Kit): https://doi.org/10.5281/zenodo.18665841
+- DOI (v6.2 Experiment): https://doi.org/10.5281/zenodo.18453525
+- DOI (v6.16 Context): https://doi.org/10.5281/zenodo.17299194
+
+## Abstract
+
+GTUD Digital Rotation v6.2.S is a student-friendly, one-day replication and falsification suite designed to reproduce and stress-test the quadratic Δθ² digital signature reported in the GTUD Digital Rotation v6.2 experimental validation package. The kit provides a single-command runner (Windows/macOS/Linux) that executes the v6.2 experiment and automatically generates a paper-ready output bundle (figures, CSV tables, manifest, hashes, and copy-paste Methods/Results). To keep results auditable and publishable, the suite implements a strict, transparent verdict rule: (i) reference-matching of the baseline condition against the v6.2 reference metrics, and (ii) multi-condition negative-control failure to prevent false positives and enable direct falsification. No specialized hardware is required; the workflow is intended for coursework, lab classes, replication notes, and rapid university verification. This release is split-licensed to support open academic use while restricting commercial exploitation: documentation and templates are CC BY-NC-SA 4.0 and code is PolyForm Noncommercial 1.0.0. Canonical records: v6.2 experiment DOI 10.5281/zenodo.18453525, theory context v6.16 DOI 10.5281/zenodo.17299194, and this v6.2.S student kit DOI 10.5281/zenodo.18665841.
+
+## Keywords
+
+GTUD; Digital Rotation; digital torsion; quadratic torsion; Δθ; delta theta; Δθ²; quadratic scaling; quadratic signature; replication study; reproducibility; falsification; verification; negative controls; reference matching; tolerance-based acceptance; PASS/FAIL criterion; preregistration; protocol; student kit; one-day experiment; university replication; auditability; provenance; run manifest; checksum; SHA-256; deterministic seeds; parameter sweep; bandlimit; lambda threshold; coherence gate; bitflip noise; binary strings; palindrome control; random control; prime-chain extension; codeflip chain; computational physics; simulation; open science; noncommercial license; CC BY-NC-SA; PolyForm Noncommercial; Zenodo; GitHub; CITATION.cff; paper-ready outputs; Python runner.

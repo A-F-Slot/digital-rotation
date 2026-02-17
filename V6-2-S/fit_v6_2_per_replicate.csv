@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\geometry{margin=1in}
+
+\title{GTUD Digital Rotation v6.2.S: One-Day Student Replication and Falsification Suite ($\Delta\theta^2$ Signature)}
+\author{[Student Name(s)]\\[University / Course]\\\texttt{[email]}}
+\date{[YYYY-MM-DD]}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{Kit DOI:} \href{https://doi.org/10.5281/zenodo.18665841}{10.5281/zenodo.18665841}\\
+\textbf{Code (v6.2.S):} \url{https://github.com/A-F-Slot/digital-rotation/tree/main/V6-2-S}\\
+\textbf{Code (v6.2):} \url{https://github.com/A-F-Slot/digital-rotation/tree/main/V6-2}
+
+\begin{abstract}
+[150--250 words. State: what you ran, what you tested, what passed/failed, and what outputs you attached. Keep scope: digital instantiation.]
+\end{abstract}
+
+\noindent\textbf{Keywords:} [8--20 keywords.]
+
+\section{Introduction}
+\subsection{Context}
+[1 paragraph.]
+\subsection{What this replication tests}
+[PASS/FAIL rule: reference-match + negative-control failure.]
+
+\section{Materials and Methods}
+\subsection{Environment}
+OS: [Windows/macOS/Linux]; Python: [version]; Hardware: [optional].
+\subsection{Commands}
+Windows: \texttt{run.ps1}; macOS/Linux: \texttt{run.sh}.
+\subsection{Fixed parameters (baseline)}
+$n=512$; replicates=120; seed=42; band=0.08; $\lambda_{\mathrm{threshold}}=0.75$; small-angle $k\le n/16$; stress $k=n/8$.
+\subsection{Verdict definition}
+PASS requires (A) baseline reference-matching within tolerances of bundled v6.2 reference metrics, and (B) negative controls fail. See \texttt{paper\_ready/verdict\_details.json}.
+
+\section{Results}
+Verdict: [PASS/FAIL]. Attach \texttt{paper\_ready/verdict\_details.json}.
+\subsection{Figures}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{paper_ready/figures/[FIGURE_FILENAME].png}
+\caption{[Caption.]}
+\end{figure}
+
+\section{Discussion}
+[Interpretation, limitations, extensions.]
+
+\section{Reproducibility checklist}
+\begin{itemize}
+\item Attached \texttt{paper\_ready/run\_manifest.json}.
+\item Attached \texttt{paper\_ready/hashes.txt}.
+\end{itemize}
+
+\section{Data and Code Availability}
+\url{https://github.com/A-F-Slot/digital-rotation/tree/main/V6-2-S}
+
+\section{References}
+Use \texttt{references.bib} or paste APA from \texttt{paper\_ready/citation\_block.txt}.
+
+\end{document}
